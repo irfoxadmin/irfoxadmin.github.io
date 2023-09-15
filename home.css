@@ -11,7 +11,7 @@ header {
     border-bottom: 2px solid;
 }
 
-#logo {
+#logo-header {
     position:fixed;
     display: inline-block;
     max-height: inherit;
@@ -37,6 +37,7 @@ h1, h2 {
 
 body {
     width: 100vw;
+    overflow-x: hidden;
 }
 
 #body {
@@ -83,9 +84,37 @@ footer {
     border-top: 2px solid;
 }
 
+#footer-logo {
+    width: 200px;
+    height: 200px;
+}
+
 footer p {
     text-align: center;
 }
+
+footer .panel img {
+    margin: auto;
+}
+
+#socials {
+    width: 172px;
+    margin: auto;
+}
+
+#socials a {
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+
 
 @media only screen and (min-width: 1000px)
 {
