@@ -54,6 +54,7 @@ body {
 .panel p {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 15px;
 }
 
 #author-image-container {
@@ -67,6 +68,10 @@ body {
 
 #panel2 {
     padding-top: 0px;
+}
+
+#panel4 p{
+    text-align: center;
 }
 
 footer {
