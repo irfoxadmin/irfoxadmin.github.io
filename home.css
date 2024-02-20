@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'FAMILY_NAME';
     src: url(FONT_FILE_NAME.woff2) format('woff2');
-}
+} */
 
 header {
     max-height: 60px;
@@ -38,6 +38,7 @@ h1, h2 {
 body {
     width: 100vw;
     overflow-x: hidden;
+    font-family: "Corbel Light"; 
 }
 
 #body {
